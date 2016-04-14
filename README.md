@@ -8,24 +8,24 @@ To run: `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 Reading from the keyboard  and Publishing to Twist!
 ---------------------------
 Moving around:
-   u    i    o
-   j    k    l
-   m    ,    .
+        w
+   a    s    d
 
-For Holonomic mode (strafing), hold down the shift key:
+Rotation:
 ---------------------------
-   U    I    O
-   J    K    L
-   M    <    >
+CCW: q
+CQ:  e
 
-t : up (+z)
-b : down (-z)
+Elevation:
+---------------------------
+r : up (+z)
+f : down (-z)
 
 anything else : stop
 
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
+t/y : increase/decrease max speeds by 10%
+g/h : increase/decrease only linear speed by 10%
+b/n : increase/decrease only angular speed by 10%
 
 CTRL-C to quit
 ```
